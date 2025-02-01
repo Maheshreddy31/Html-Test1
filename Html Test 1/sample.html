@@ -1,0 +1,161 @@
+<!-- Question 1. Write an HTML document that includes the following:
+
+- A correct HTML structure with `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
+- Inside the `<head>`, include a `<meta charset="UTF-8">` tag for character encoding and a `<title>` tag with the text "Intermediate HTML Structure".
+- Inside the `<body>`, include an `<h1>` element that says "Welcome to HTML Intermediate" and a `<p>` element that contains the text "This is a sample webpage structure." -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate HTML Structure</title>
+</head>
+<body>
+    <h1>Welcome to HTML Intermediate</h1>
+    <p>This is a sample webpage structure.</p>
+</body>
+</html>
+
+<!-- Question 2. Write an HTML code snippet that includes:
+
+- An unordered list (`<ul>`) with three list items (`<li>`).
+- The second `<li>` should have a `class="important"`, and the third `<li>` should have a `data-info="extra info"` attribute.
+- A link (`<a>`) inside the first list item, which links to `"https://www.example.com"` with the text "Go to Example".
+- Add a comment at the top explaining the list structure.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.example.com">Go to Example</a></li>
+        <li class="important">This is an important item.</li>
+        <li data-info="extra info">This item has extra information.</li>
+    </ul>
+</body>
+</html>
+
+<!-- Question 3.Write an HTML code snippet that includes the following:
+
+- A paragraph (`<p>`) with the text "This is a sample paragraph."
+- A `<hr>` tag to separate content.
+- A second paragraph that includes an inline `<b>` tag with bold text, followed by an inline `<i>` tag with italicized text.
+- Use the `<br>` tag to add a line break between the two paragraphs. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a sample paragraph.</p>
+<hr>
+<p>This is a <b>bold</b> text followed by <i>italicized</i> text.</p>
+<br>
+</body>
+</html>
+
+<!-- Question 4. Write an HTML snippet that displays the following content:
+
+- A heading (`<h2>`) that reads "HTML Formatting Example".
+- A blockquote (`<blockquote>`) that contains a quote from "Albert Einstein: 'Imagination is more important than knowledge.'"
+- A paragraph that uses the `<u>` tag to underline the text "This is an underlined sentence".
+- Use the `<s>` tag to strike through the word "incorrect" and then write "correct" next to it. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML Formatting Example</h2>
+<blockquote>
+    Albert Einstein: 'Imagination is more important than knowledge.'
+</blockquote>
+<p>This is an <u>underlined sentence</u>.</p>
+<p><s>incorrect</s> correct</p>
+</body>
+</html>
+
+
+<!-- Question 7. Write an HTML snippet that includes:
+
+- An ordered list (`<ol>`) with three items about "HTML List Types", "HTML Tags", and "HTML Elements".
+- Include a nested unordered list (`<ul>`) within the second list item, with two items: "Inline elements" and "Block elements".
+- Display an example of a block-level element (`<div>`) and an inline-level element (`<span>`) in the same paragraph. Use the `<div>` to display a block of text and the `<span>` to highlight part of that text in the same line.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>HTML List Types
+            <ul>
+                <li>Inline elements</li>
+                <li>Block elements</li>
+            </ul>
+        </li>
+        <li>HTML Tags</li>
+        <li>HTML Elements</li>
+    </ol>
+    
+    <p>
+        Here is an example of a block-level element: 
+        <div>This is a block-level element.</div>
+        And here is an inline-level element: 
+        <span style="color: red;">This text is highlighted.</span>
+    </p>
+</body>
+</html>
+
+<!-- Question 5. Create a semantic HTML structure for a blog post:
+
+- Include a `<header>` that contains an `<h1>` with the title "Understanding Semantic HTML".
+- Create a `<main>` section with an `<article>` containing a paragraph with the text "Semantic HTML helps make web content more accessible."
+- Add a `<footer>` with a copyright notice "© 2025 My Website".
+- Ensure that the `<header>` contains a `<nav>` with two links: "Home" and "About".-->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Understanding Semantic HTML</title>
+    </head>
+    <body>
+    
+    <header>
+        <h1>Understanding Semantic HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <p>Semantic HTML helps make web content more accessible.</p>
+        </article>
+    </main>
+    
+    <footer>
+        <p>© 2025 My Website</p>
+    </footer>
+    
+    </body>
+    </html>
